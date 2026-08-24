@@ -2,7 +2,6 @@
 
 from pathlib import Path
 
-
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 IMPORTANT_DIRECTORIES = (
@@ -33,6 +32,6 @@ def test_important_directories_exist() -> None:
         if not (PROJECT_ROOT / directory).is_dir()
     ]
 
-    assert not missing_directories, (
-        "Missing required project directories: " + ", ".join(missing_directories)
-    )
+    assert (
+        not missing_directories
+    ), "Missing required project directories: " + ", ".join(missing_directories)
