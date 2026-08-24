@@ -1,0 +1,15 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+jupyter
+python-dotenv
+requests
+sqlalchemy
+psycopg2-binary
+fastapi
+uvicorn
+pytest
+black
+ruff

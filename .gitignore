@@ -1,0 +1,64 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local data files (directory placeholders remain tracked)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/sample/*
+!data/sample/.gitkeep
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.avro
+
+# Logs
+*.log
+logs/
+
+# Machine-learning artifacts
+artifacts/
+models/
+mlruns/
+*.pkl
+*.pickle
+*.joblib
+*.onnx
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# IDE settings
+.idea/
+.vscode/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
