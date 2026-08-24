@@ -1,6 +1,6 @@
 # OmniPulse AI: Real-Time Data, ML, and GenAI Command Center
 
-OmniPulse AI is a beginner-friendly, production-style portfolio project that will grow into an end-to-end platform for data engineering, analytics, machine learning, MLOps, and generative AI. The project is intentionally built in small phases so that every component can be learned, tested, and documented before the next one is introduced.
+OmniPulse AI is a project that will grow into an end-to-end platform for data engineering, analytics, machine learning, MLOps, and generative AI. The project is intentionally built in small phases so that every component can be learned, tested, and documented before the next one is introduced.
 
 ## Project goals
 
