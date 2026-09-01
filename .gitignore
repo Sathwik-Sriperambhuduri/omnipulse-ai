@@ -36,6 +36,9 @@ data/sample/*
 *.feather
 *.avro
 
+# Keep the small, recruiter-friendly Phase 2 examples in version control.
+!data/sample/*.csv
+
 # Logs
 *.log
 logs/

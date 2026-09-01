@@ -1,0 +1,11 @@
+product_id,product_name,category,subcategory,brand,unit_price,cost_price,launch_date,is_active
+PROD-00001,Northstar Running Shorts 1,Apparel,Activewear,Northstar,69.25,45.86,2025-12-13,True
+PROD-00002,Verdant Cleanser Set 2,Beauty,Skin Care,Verdant,24.19,9.39,2024-12-22,True
+PROD-00003,TrailKind Adjustable Dumbbell 3,Sports & Outdoors,Fitness,TrailKind,118.92,52.09,2019-03-30,True
+PROD-00004,TrailKind Running Shoes 4,Apparel,Footwear,TrailKind,105.23,54.42,2020-08-21,True
+PROD-00005,Verdant Daily Moisturizer 5,Beauty,Skin Care,Verdant,38.41,15.81,2024-10-02,False
+PROD-00006,PulseTech Smart Speaker 6,Electronics,Smart Home,PulseTech,160.44,76.32,2019-05-30,False
+PROD-00007,DailyNest Cookware Set 7,Home & Kitchen,Kitchen,DailyNest,219.73,119.04,2024-12-27,True
+PROD-00008,Culina Cookware Set 8,Home & Kitchen,Kitchen,Culina,146.62,66.4,2020-12-20,True
+PROD-00009,Maple House Leadership Handbook 9,Books,Nonfiction,Maple House,14.13,9.73,2025-06-04,True
+PROD-00010,Momentum Resistance Band Set 10,Sports & Outdoors,Fitness,Momentum,156.14,92.17,2021-01-20,True

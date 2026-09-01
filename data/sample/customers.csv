@@ -1,0 +1,13 @@
+customer_id,first_name,last_name,email,phone,gender,date_of_birth,signup_date,city,state,country,postal_code,customer_segment,acquisition_channel
+CUST-000001,Mateo,Singh,mateo.singh.1@example.com,+1-555-0001,Female,1957-12-07,2021-06-12,Atlanta,GA,United States,30303,Regular,Referral
+CUST-000002,Carlos,Singh,carlos.singh.2@example.com,+1-555-0002,Female,1983-01-17,2024-11-13,Denver,CO,United States,80202,New,Social Media
+CUST-000003,Ravi,Brown,ravi.brown.3@example.com,+1-555-0003,Male,1957-12-29,2024-04-09,Miami,FL,United States,33101,Regular,Affiliate
+CUST-000004,Liam,Lee,liam.lee.4@example.com,+1-555-0004,Female,1965-06-01,2023-03-12,Miami,FL,United States,33101,Regular,Organic Search
+CUST-000005,Kai,Davis,kai.davis.5@example.com,+1-555-0005,Non-binary,1965-03-31,2023-03-02,Atlanta,GA,United States,30303,Regular,Paid Search
+CUST-000006,Mateo,Brown,mateo.brown.6@example.com,+1-555-0006,Female,1961-02-06,2025-04-16,Philadelphia,PA,United States,19103,Regular,Organic Search
+CUST-000007,Kai,Rivera,kai.rivera.7@example.com,+1-555-0007,Male,1978-04-09,2021-06-06,Portland,OR,United States,97201,Regular,Referral
+CUST-000008,Olivia,Lee,olivia.lee.8@example.com,+1-555-0008,Female,1958-02-05,2024-06-26,Boston,MA,United States,02108,Regular,Organic Search
+CUST-000009,Olivia,Davis,olivia.davis.9@example.com,+1-555-0009,Male,2003-03-19,2022-01-03,Boston,MA,United States,02108,Regular,Email
+CUST-000010,Noah,Nguyen,noah.nguyen.10@example.com,+1-555-0010,Female,1973-11-26,2021-06-21,Philadelphia,PA,United States,19103,New,Social Media
+CUST-000011,Liam,Martinez,liam.martinez.11@example.com,+1-555-0011,Male,1973-07-22,2023-08-19,Miami,FL,United States,33101,Regular,Social Media
+CUST-000012,Noah,Singh,noah.singh.12@example.com,+1-555-0012,Female,1973-11-05,2025-11-16,Houston,TX,United States,77001,New,Paid Search

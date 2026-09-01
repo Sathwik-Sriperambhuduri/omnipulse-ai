@@ -63,7 +63,9 @@ This is the target architecture, not the current implementation. Components will
 | Quality | pytest, Black, Ruff |
 | Delivery | Docker and a cloud platform to be selected later |
 
-Tools listed for later phases are architectural plans only; Phase 1 contains no Kafka, Spark, Airflow, dbt, MLflow, or GenAI implementation.
+Tools listed for later phases are architectural plans only. Phases 1 and 2 do
+not start PostgreSQL, Kafka, Spark, Airflow, dbt, MLflow, dashboards, machine
+learning, or GenAI.
 
 ## Phase roadmap
 
@@ -127,6 +129,47 @@ ruff check .
 black --check .
 ```
 
+## Generate the Phase 2 datasets
+
+From the repository root, with the virtual environment active, run:
+
+```powershell
+python -m src.ingestion.generate_synthetic_data `
+  --customers 1000 `
+  --products 200 `
+  --orders 5000 `
+  --clickstream-sessions 3000 `
+  --seed 42 `
+  --output-dir data/raw
+```
+
+On macOS or Linux, replace PowerShell's backticks with backslashes, or put the
+command on one line. Every argument is optional; the values above are the
+defaults. Using the same sizes and seed reproduces the same data.
+
+The command creates these related CSV files: customers, products, orders,
+order items, payments, reviews, inventory, marketing campaigns, and clickstream
+events. See the [data dictionary](docs/data_dictionary.md) for every column and
+the [data model guide](docs/data_model.md) for relationship explanations.
+
+- `data/raw/` contains locally generated working data. Its CSV files are ignored
+  by Git because full runs may become large.
+- `data/sample/` contains small recruiter-friendly CSVs with the same schemas.
+  These examples are intentionally allowed in Git.
+
+To make a separate small dataset for experimentation, choose another output
+directory:
+
+```powershell
+python -m src.ingestion.generate_synthetic_data --customers 20 --products 10 --orders 30 --clickstream-sessions 15 --seed 42 --output-dir data/my_test_run
+```
+
 ## Current status
 
-**Phase 1: project setup.** The initial repository structure, development configuration, documentation, and project-structure test are in place. Data pipelines and platform services will begin in later phases.
+- **Phase 1 — Complete:** repository structure, development configuration, and
+  foundation documentation are in place.
+- **Phase 2 — Complete:** the reproducible synthetic e-commerce generator,
+  sample data, relationship tests, data dictionary, and data-model guide are in
+  place.
+- **Phase 3 and later — Not started:** no platform services or downstream data
+  pipelines have been introduced yet.

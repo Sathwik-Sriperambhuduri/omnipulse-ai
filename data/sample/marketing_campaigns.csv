@@ -1,0 +1,7 @@
+campaign_id,campaign_name,channel,start_date,end_date,budget,target_segment,impressions,clicks,conversions
+CAMP-0001,2025 Paid Search Campaign 1,Paid Search,2025-10-27,2025-11-13,56604.36,Loyal,38043,2803,470
+CAMP-0002,2025 Display Campaign 2,Display,2025-04-22,2025-05-09,41601.15,All Customers,420611,4750,210
+CAMP-0003,2025 Social Media Campaign 3,Social Media,2025-10-09,2025-11-06,59433.13,All Customers,375142,22381,3462
+CAMP-0004,2023 Email Campaign 4,Email,2023-09-08,2023-10-08,49894.63,VIP,104590,3159,413
+CAMP-0005,2023 Social Media Campaign 5,Social Media,2023-10-30,2023-11-20,57492.32,VIP,36705,2149,37
+CAMP-0006,2025 Social Media Campaign 6,Social Media,2025-06-11,2025-07-07,38038.45,VIP,94832,1472,61

@@ -1,0 +1,21 @@
+order_id,customer_id,order_date,order_status,shipping_city,shipping_state,shipping_country,shipping_cost,discount_amount,tax_amount,order_total
+ORD-0000001,CUST-000008,2024-08-11,Delivered,Boston,MA,United States,0.0,0.0,7.14,126.06
+ORD-0000002,CUST-000009,2022-06-02,Delivered,Boston,MA,United States,0.0,0.0,8.42,113.65
+ORD-0000003,CUST-000008,2025-05-19,Delivered,Boston,MA,United States,0.0,32.96,28.62,505.65
+ORD-0000004,CUST-000004,2023-04-03,Processing,Miami,FL,United States,0.0,10.52,0.0,488.69
+ORD-0000005,CUST-000008,2025-11-15,Delivered,Boston,MA,United States,0.0,11.89,6.42,113.45
+ORD-0000006,CUST-000006,2025-11-12,Delivered,Philadelphia,PA,United States,0.0,75.57,46.34,625.54
+ORD-0000007,CUST-000002,2025-06-15,Delivered,Denver,CO,United States,0.0,21.97,0.0,523.45
+ORD-0000008,CUST-000011,2023-12-29,Delivered,Miami,FL,United States,0.0,15.61,0.0,621.85
+ORD-0000009,CUST-000006,2025-05-23,Delivered,Philadelphia,PA,United States,0.0,0.0,0.0,105.23
+ORD-0000010,CUST-000004,2024-08-12,Delivered,Miami,FL,United States,0.0,21.05,24.67,333.0
+ORD-0000011,CUST-000007,2025-09-02,Delivered,Portland,OR,United States,7.28,23.78,5.71,108.13
+ORD-0000012,CUST-000012,2025-12-28,Delivered,Houston,TX,United States,0.0,32.96,0.0,650.42
+ORD-0000013,CUST-000003,2025-11-19,Processing,Miami,FL,United States,0.0,0.0,15.38,235.11
+ORD-0000014,CUST-000004,2025-07-09,Shipped,Miami,FL,United States,9.81,5.76,1.96,44.42
+ORD-0000015,CUST-000004,2024-05-08,Delivered,Miami,FL,United States,0.0,0.0,16.65,254.49
+ORD-0000016,CUST-000007,2022-07-24,Delivered,Portland,OR,United States,0.0,22.94,0.0,279.82
+ORD-0000017,CUST-000004,2024-01-24,Delivered,Miami,FL,United States,0.0,5.26,0.0,521.65
+ORD-0000018,CUST-000012,2025-12-09,Processing,Houston,TX,United States,0.0,8.02,10.75,225.77
+ORD-0000019,CUST-000011,2023-11-15,Processing,Miami,FL,United States,0.0,16.04,11.55,155.95
+ORD-0000020,CUST-000010,2025-07-23,Returned,Philadelphia,PA,United States,0.0,21.97,35.34,540.16

@@ -1,0 +1,6 @@
+review_id,order_id,product_id,customer_id,rating,review_title,review_text,review_date
+REV-0000001,ORD-0000006,PROD-00010,CUST-000006,4,Very pleased,Good quality and I would recommend it.,2025-11-30
+REV-0000002,ORD-0000007,PROD-00004,CUST-000002,3,Good overall,A solid product that does what it promises.,2025-06-24
+REV-0000003,ORD-0000008,PROD-00010,CUST-000011,4,Very pleased,Good quality and I would recommend it.,2024-02-10
+REV-0000004,ORD-0000015,PROD-00003,CUST-000004,4,Very pleased,Good quality and I would recommend it.,2024-05-16
+REV-0000005,ORD-0000020,PROD-00008,CUST-000010,4,Very pleased,Good quality and I would recommend it.,2025-09-04
